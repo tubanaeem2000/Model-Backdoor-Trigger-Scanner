@@ -1,0 +1,8 @@
+# Streamlit theme: teal green + black
+[theme]
+base = "dark"
+primaryColor = "#14B8A6"              # teal: buttons, sliders, tabs, progress bar
+backgroundColor = "#070B0B"           # near-black page
+secondaryBackgroundColor = "#0F1E1C"  # dark teal-black: sidebar, inputs, tables
+textColor = "#E6FFFA"                 # soft mint-white text
+font = "sans serif"

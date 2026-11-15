@@ -1,0 +1,20 @@
+# Model Backdoor Trigger Scanner - dependencies
+# Tested with Python 3.12: torch 2.15, torchvision 0.29, streamlit 1.67, altair 6.3,
+# pandas 3.1, matplotlib 3.11, numpy 2.5, pillow 13.0, pytest 9.2
+
+# Deep learning
+torch>=2.2
+torchvision>=0.17
+
+# Dashboard + charts
+streamlit>=1.50
+altair>=5.0
+
+# Data + plotting
+pandas>=2.0
+numpy>=1.26
+matplotlib>=3.8
+pillow>=10.0
+
+# Tests
+pytest>=8.0

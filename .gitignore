@@ -1,0 +1,46 @@
+# ---------- Python ----------
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ---------- Virtual environments ----------
+venv/
+.venv/
+env/
+ENV/
+
+# ---------- Secrets / local config ----------
+.env
+.env.*
+.streamlit/secrets.toml
+
+# ---------- IDE / OS ----------
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---------- Dataset (auto-downloaded by torchvision on first run) ----------
+data/MNIST/
+
+# ---------- Models ----------
+# The two trained demo models ARE committed (small, ~1.7 MB each) so the scanner
+# and dashboard work right after cloning. Everything else is local only.
+models/*.pth
+models/*.pt
+!models/clean_model.pth
+!models/backdoored_model.pth
+models/verification/
+
+# ---------- Generated reports (re-created by every scan) ----------
+reports/*.csv
+reports/*.html
+reports/*.json
+# Keep the small sample results shown in the README
+!reports/training_results.json
+!reports/scan_summary.csv

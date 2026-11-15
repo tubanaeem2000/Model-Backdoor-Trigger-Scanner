@@ -1,0 +1,15 @@
+{
+  "clean": {
+    "clean_accuracy": 98.99,
+    "attack_success_rate": 0.04
+  },
+  "backdoored": {
+    "clean_accuracy": 99.03,
+    "attack_success_rate": 100.0
+  },
+  "settings": {
+    "epochs": 3,
+    "poison_rate": 0.1,
+    "target_class": 7
+  }
+}
