@@ -3,6 +3,10 @@
 **Black-box detection of hidden backdoor triggers in image classifiers**
 *Ethical Hacking Project · AI & LLM Security*
 
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://model-backdoor-trigger-scanner.streamlit.app/)
+
+**🔴 Live demo: [model-backdoor-trigger-scanner.streamlit.app](https://model-backdoor-trigger-scanner.streamlit.app/)**
+
 A model can score 99 % accuracy and still hide a backdoor: a small pattern that, when
 added to *any* input, forces a prediction chosen by the attacker. This project plants
 such a backdoor in an MNIST classifier and then builds a scanner that finds it **without
